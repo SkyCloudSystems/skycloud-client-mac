@@ -1,0 +1,1328 @@
+The system is: Darwin - 17.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8139/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f8139.dir/build.make CMakeFiles/cmTC_f8139.dir/build
+Building C object CMakeFiles/cmTC_f8139.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_f8139.dir/testCCompiler.c.o   -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f8139
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8139.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8139.dir/testCCompiler.c.o  -o cmTC_f8139 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e297a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e297a.dir/build.make CMakeFiles/cmTC_e297a.dir/build
+Building C object CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e297a
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e297a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o  -o cmTC_e297a 
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e297a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e297a/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e297a.dir/build.make CMakeFiles/cmTC_e297a.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e297a]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e297a.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o  -o cmTC_e297a ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e297a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e297a] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e297a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1b35/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b1b35.dir/build.make CMakeFiles/cmTC_b1b35.dir/build
+Building C object CMakeFiles/cmTC_b1b35.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b1b35.dir/feature_tests.c.o   -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b1b35
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1b35.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b1b35.dir/feature_tests.c.o  -o cmTC_b1b35 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b297f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b297f.dir/build.make CMakeFiles/cmTC_b297f.dir/build
+Building C object CMakeFiles/cmTC_b297f.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b297f.dir/feature_tests.c.o   -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b297f
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b297f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b297f.dir/feature_tests.c.o  -o cmTC_b297f 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e884/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e884.dir/build.make CMakeFiles/cmTC_4e884.dir/build
+Building C object CMakeFiles/cmTC_4e884.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4e884.dir/feature_tests.c.o   -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4e884
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e884.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4e884.dir/feature_tests.c.o  -o cmTC_4e884 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae4f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ae4f7.dir/build.make CMakeFiles/cmTC_ae4f7.dir/build
+Building CXX object CMakeFiles/cmTC_ae4f7.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_ae4f7.dir/testCXXCompiler.cxx.o -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ae4f7
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ae4f7.dir/testCXXCompiler.cxx.o  -o cmTC_ae4f7 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da9ae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da9ae.dir/build.make CMakeFiles/cmTC_da9ae.dir/build
+Building CXX object CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_da9ae
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da9ae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_da9ae 
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_da9ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_da9ae/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da9ae.dir/build.make CMakeFiles/cmTC_da9ae.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_da9ae]
+  ignore line: [/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da9ae.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_da9ae ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_da9ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_da9ae] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_da9ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b9a9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1b9a9.dir/build.make CMakeFiles/cmTC_1b9a9.dir/build
+Building CXX object CMakeFiles/cmTC_1b9a9.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1b9a9.dir/feature_tests.cxx.o -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1b9a9
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b9a9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b9a9.dir/feature_tests.cxx.o  -o cmTC_1b9a9 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f3ba/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9f3ba.dir/build.make CMakeFiles/cmTC_9f3ba.dir/build
+Building CXX object CMakeFiles/cmTC_9f3ba.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9f3ba.dir/feature_tests.cxx.o -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9f3ba
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f3ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f3ba.dir/feature_tests.cxx.o  -o cmTC_9f3ba 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_432bd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_432bd.dir/build.make CMakeFiles/cmTC_432bd.dir/build
+Building CXX object CMakeFiles/cmTC_432bd.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_432bd.dir/feature_tests.cxx.o -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_432bd
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_432bd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_432bd.dir/feature_tests.cxx.o  -o cmTC_432bd 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_574bf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_574bf.dir/build.make CMakeFiles/cmTC_574bf.dir/build
+Building CXX object CMakeFiles/cmTC_574bf.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_574bf.dir/feature_tests.cxx.o -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_574bf
+/usr/local/Cellar/cmake/3.9.3_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_574bf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_574bf.dir/feature_tests.cxx.o  -o cmTC_574bf 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Darwin - 17.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -fvisibility=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CMakeCCompilerId.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC
+    /bin/sh -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX
+    /bin/sh -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/3.9.3/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_cfffa" "-configuration" "Debug"
+=== BUILD TARGET cmTC_cfffa OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/cmTC_cfffa.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_cfffa normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/cmTC_cfffa.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/cmTC_cfffa_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cfffa.build/Objects-normal/x86_64/cmTC_cfffa_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cfffa
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f1e5a" "-configuration" "Debug"
+=== BUILD TARGET cmTC_f1e5a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_f1e5a normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f1e5a" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_f1e5a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_f1e5a normal x86_64]
+  ignore line: [    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.13]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_f1e5a] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f1e5a.build/Objects-normal/x86_64/cmTC_f1e5a_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug] ==> [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug] ==> [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ceee6" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ceee6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/cmTC_ceee6.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_ceee6 normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/cmTC_ceee6.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/cmTC_ceee6_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ceee6.build/Objects-normal/x86_64/cmTC_ceee6_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_ceee6
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5d575" "-configuration" "Debug"
+=== BUILD TARGET cmTC_5d575 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/cmTC_5d575.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_5d575 normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/cmTC_5d575.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/cmTC_5d575_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5d575.build/Objects-normal/x86_64/cmTC_5d575_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_5d575
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d5f67" "-configuration" "Debug"
+=== BUILD TARGET cmTC_d5f67 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/cmTC_d5f67.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.c -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_d5f67 normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/cmTC_d5f67.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/cmTC_d5f67_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5f67.build/Objects-normal/x86_64/cmTC_d5f67_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_d5f67
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4467e" "-configuration" "Debug"
+=== BUILD TARGET cmTC_4467e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/cmTC_4467e.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTC_4467e normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/cmTC_4467e.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/cmTC_4467e_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4467e.build/Objects-normal/x86_64/cmTC_4467e_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_4467e
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_cbbef" "-configuration" "Debug"
+=== BUILD TARGET cmTC_cbbef OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_cbbef normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_cbbef" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_cbbef OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.9.3_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_cbbef normal x86_64]
+  ignore line: [    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.13]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList -object_path_lto /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_cbbef] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_cbbef.build/Objects-normal/x86_64/cmTC_cbbef_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug] ==> [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug] ==> [/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b1c9a" "-configuration" "Debug"
+=== BUILD TARGET cmTC_b1c9a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/cmTC_b1c9a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c++1z -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_b1c9a normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/cmTC_b1c9a.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/cmTC_b1c9a_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b1c9a.build/Objects-normal/x86_64/cmTC_b1c9a_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_b1c9a
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b2aae" "-configuration" "Debug"
+=== BUILD TARGET cmTC_b2aae OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/cmTC_b2aae.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_b2aae normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/cmTC_b2aae.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/cmTC_b2aae_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b2aae.build/Objects-normal/x86_64/cmTC_b2aae_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_b2aae
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3782d" "-configuration" "Debug"
+=== BUILD TARGET cmTC_3782d OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/cmTC_3782d.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_3782d normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/cmTC_3782d.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/cmTC_3782d_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3782d.build/Objects-normal/x86_64/cmTC_3782d_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_3782d
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_994b0" "-configuration" "Debug"
+=== BUILD TARGET cmTC_994b0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64
+write-file /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/cmTC_994b0.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/feature_tests.o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/include -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/DerivedSources/x86_64 -I/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/feature_tests.dia -c /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/feature_tests.cxx -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_994b0 normal x86_64
+    cd /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -F/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug -filelist /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/cmTC_994b0.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/cmTC_994b0_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_994b0.build/Objects-normal/x86_64/cmTC_994b0_dependency_info.dat -o /Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/CMakeTmp/Debug/cmTC_994b0
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

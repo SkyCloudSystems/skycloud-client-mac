@@ -1,0 +1,3 @@
+/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/BasicViewerMac.dir
+/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/ALL_BUILD.dir
+/Users/skycloud/Desktop/vncsdk-1.5.1/samples/basicViewerMac/CMakeFiles/ZERO_CHECK.dir
